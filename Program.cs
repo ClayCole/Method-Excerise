@@ -18,7 +18,15 @@ namespace MethodExcerise
             Console.WriteLine($"Last Question {userName}, What is your Favorite Musician?");
             var musician = Console.ReadLine();
 
-            Console.WriteLine($"I appericate your time {userName}, Have a Good Day!");
+            Console.WriteLine($"Thanks, {userName}! Here is your Profile");
+            Console.WriteLine($"----------------------------------------");
+
+
+            Console.WriteLine($"Name:{userName}");
+            Console.WriteLine($"Favorite Color:{color}");
+            Console.WriteLine($"Favorite Animal:{animal}");
+            Console.WriteLine($"Favorite Musicain:{musician}");
+
         }
     }
 }
