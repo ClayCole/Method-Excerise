@@ -77,7 +77,7 @@ namespace MethodExcerise
 
             var randomness = modulus(14550, 480,3);
             Console.WriteLine();
-            Thread.Sleep(1500);
+            Thread.Sleep(4000);
             
             Console.WriteLine($"WAIT!!!! {userName}, Before you go I want to share something with you, BUT you MUST keep it a secret?");
             Console.WriteLine();
