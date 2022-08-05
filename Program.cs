@@ -63,12 +63,12 @@ namespace MethodExcerise
             Console.WriteLine($"Let's change the subject {userName}, Do you like Math?");
             Console.ReadLine();
 
-            Console.WriteLine("Math is a great tool, Like was 14550-480?");
+            Console.WriteLine("Math is a great tool, Like what is 14550-480?");
             Console.WriteLine("..");
             Console.WriteLine("...");
             Console.WriteLine(bills);
             Console.WriteLine();
-            Console.WriteLine("hahah, beat you to it...How does it feel to be beat by a computer?");
+            Console.WriteLine("hahah, beat you to it...How does it feel to lsoe to a computer?");
             Console.ReadLine();
             
            
@@ -77,8 +77,11 @@ namespace MethodExcerise
             var randomness = modulus(14550, 480,3);
             Console.WriteLine();
             // I wanted to add a Thread.Sleep(1000), but idk how :/
-
-            Console.WriteLine($"WAIT {userName}, Before you go I want to share something with you, BUT you have to keep it a secret?");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            Console.WriteLine("."); 
+            Console.WriteLine($"WAIT {userName}, Before you go I want to share something with you, BUT you MUST keep it a secret?");
+            Console.WriteLine();
             Console.WriteLine("Can you keep a secret?");
             Console.ReadLine();
             Console.WriteLine();
