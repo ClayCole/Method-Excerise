@@ -89,8 +89,17 @@ namespace MethodExcerise
             Console.ReadLine();
 
             Console.WriteLine(" its computer talk for I LOVE C#, LOL IDK ..... BYE!");
-           
 
+            // Extra work with Params
+
+            Thread.Sleep(2000);
+
+            Console.WriteLine("Are you ready for me to attempt Params ?");
+            Console.ReadLine();
+
+            Console.WriteLine(add(2, 4));
+            Console.WriteLine(add(2,4,6));
+            Console.WriteLine(add(1,1,1,1,1));
 
 
         }
@@ -118,7 +127,20 @@ namespace MethodExcerise
             return num1 % num2 % num3;
 
         }
-        
+        public static int add(params int[] numbersStored) // numbersStored - 2,4,3,5,6,7
+        {
+            int total = 0;
+            foreach (int i in numbersStored) // is desing for collections of arrays/strings/etc.( the "i" will stay in order of the numbersStored (2-4-3
+            {
+                total = i + total ;
+
+
+            }
+            return total;
+
+        }
+
     }
+   
 }
 
